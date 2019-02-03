@@ -1,3 +1,98 @@
 body{
-    background-color: #3c717a;
+    background-color: #acabac;
 }
+img{
+    max-width:100%;
+    height:auto;
+   
+    
+}
+h1.fixed {
+    position: fixed;
+    display: block;
+    top: 0%;
+    left: 60%;
+    width: 300px;
+    
+    
+
+   font:outline; 
+   font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+p {font-family: 
+futura-pt-condensed, sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: left; 
+border-inline-start-width: 2in;
+margin-left: 10px;
+
+
+}
+h2 {text-align: center;
+}
+
+
+href {color-adjust:hotpink;
+    margin-right: 100%
+ }
+
+ .bg-img {
+ 
+    background-image: url("https://images.unsplash.com/photo-1548919973-5cef591cdbc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  
+    min-height: 380px;
+  
+
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  
+    position: center;
+  }
+/* The sidebar menu */
+.sidenav {
+    height: auto; 
+    width: 110px;
+    position: fixed; 
+    z-index: 0; /* Stay on top */
+    bottom: 50%; /* Stay at the top */
+    left: 110;
+    background-color: rgb(255, 255, 255); 
+    overflow-x: visible; /* Disable horizontal scroll */
+    padding-top: 10px;
+  }
+  
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: float;
+  }
+  
+ 
+  .sidenav a:hover {
+    color: #000000;
+  
+      }
+  
+
+  .main {
+    margin-left: 110px; 
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  
